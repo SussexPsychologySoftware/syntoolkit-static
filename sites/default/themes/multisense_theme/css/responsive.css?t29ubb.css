@@ -1,0 +1,86 @@
+@media only screen and (max-width:996px) {
+	.logo {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	.header-rgt {
+		display: block;
+		float: none;
+		padding: 10px 0 0 0;
+		text-align: center;
+	}
+
+	nav.main-menu {
+		display: block;
+		float: none;
+	}
+
+	.social-media {
+		display: none;
+	}
+
+	.content-icons {
+		padding: 25px 2% 0;
+	}
+
+	.content-icons ul li {
+		padding-bottom: 20px;
+	}
+
+	.content-icons ul li a span img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.banner-con	a {
+		font-size: 36px;
+	}
+
+	.content-statement {
+		padding: 25px 0 25px;
+		margin-top: 10px;
+	}
+
+	.content-statement p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.content-default h2 {
+		font-size: 24px;
+	}
+
+	#content,
+	#sidebar-first,
+	#sidebar-second{
+		display: block;
+		float: none;
+		padding-top: 0;
+	}
+
+	.one-sidebar #content {
+		width: 100%;
+	}
+	.two-sidebars #content {
+		width: 100%;
+	}
+	.no-sidebars #content {
+		display: block;
+		float: none;
+		padding: 0;
+	}
+	#sidebar-first,
+	#sidebar-second {
+		width: 100%;
+		padding: 5%;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	nav.main-menu ul li {
+		margin: 0;
+		font-size: 14px;
+	}
+}

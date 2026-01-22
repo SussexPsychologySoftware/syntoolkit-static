@@ -1,0 +1,16 @@
+
+(function($){
+
+    var bigHeader = true;
+
+
+    $(window).scroll(function() {
+        if($(document).scrollTop() > 0) {
+            if(bigHeader) {
+                bigHeader = false;
+                $('header').addClass('smaller');
+            }
+        } 
+    });
+
+})(jQuery);
